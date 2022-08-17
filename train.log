@@ -1,0 +1,52 @@
+2021-09-24 20:03:41,342 __main__     INFO     START train.py
+2021-09-24 20:03:41,344 __main__     INFO     Load train df
+2021-09-24 20:03:43,073 __main__     INFO     Input shape: (279792, 77)
+2021-09-24 20:03:43,309 __main__     INFO     X_offer (275299, 70)  y_offer (275299,)	X_manual (4493, 70) y_manual (4493,)
+2021-09-24 20:03:43,309 __main__     INFO     Fit model
+2021-09-24 20:03:43,309 raif_hack.model INFO     Fit lightgbm
+2021-09-24 20:05:20,967 raif_hack.model INFO     Find corr coefficient
+2021-09-24 20:05:21,552 raif_hack.model INFO     Corr coef: -0.12
+2021-09-24 20:05:21,552 __main__     INFO     Save model
+2021-09-24 20:05:21,552 __main__     ERROR    Traceback (most recent call last):
+  File "train.py", line 55, in <module>
+    model.save(args['mp'])
+  File "/home/artem/RaifHack/raif_hack/model.py", line 110, in save
+    with open(path, "wb") as f:
+IsADirectoryError: [Errno 21] Is a directory: 'Res/'
+
+2021-09-24 20:43:51,052 __main__     INFO     START train.py
+2021-09-24 20:43:59,442 __main__     INFO     START train.py
+2021-09-24 20:43:59,443 __main__     INFO     Load train df
+2021-09-24 20:44:00,906 __main__     INFO     Input shape: (279792, 77)
+2021-09-24 20:44:01,099 __main__     INFO     X_offer (275299, 70)  y_offer (275299,)	X_manual (4493, 70) y_manual (4493,)
+2021-09-24 20:44:01,099 __main__     INFO     Fit model
+2021-09-24 20:44:01,100 raif_hack.model INFO     Fit lightgbm
+2021-09-24 20:45:33,033 raif_hack.model INFO     Find corr coefficient
+2021-09-24 20:45:33,565 raif_hack.model INFO     Corr coef: -0.12
+2021-09-24 20:45:33,565 __main__     INFO     Save model
+2021-09-24 20:45:33,565 __main__     ERROR    Traceback (most recent call last):
+  File "train.py", line 55, in <module>
+    model.save(args['mp'])
+  File "/home/artem/RaifHack/raif_hack/model.py", line 110, in save
+    with open(path, "wb") as f:
+IsADirectoryError: [Errno 21] Is a directory: 'Res/'
+
+2021-09-24 20:46:09,483 __main__     INFO     START train.py
+2021-09-24 20:46:09,483 __main__     INFO     Load train df
+2021-09-24 20:46:10,924 __main__     INFO     Input shape: (279792, 77)
+2021-09-24 20:46:11,112 __main__     INFO     X_offer (275299, 70)  y_offer (275299,)	X_manual (4493, 70) y_manual (4493,)
+2021-09-24 20:46:11,112 __main__     INFO     Fit model
+2021-09-24 20:46:11,112 raif_hack.model INFO     Fit lightgbm
+2021-09-24 20:47:45,039 raif_hack.model INFO     Find corr coefficient
+2021-09-24 20:47:45,585 raif_hack.model INFO     Corr coef: -0.12
+2021-09-24 20:47:45,585 __main__     INFO     Save model
+2021-09-24 20:48:21,146 __main__     INFO     Metrics stat for training data with offers prices: {'mape': 1.5179711517762342, 'mdape': 0.3124457350734331, 'rmse': 73929.55680179487, 'r2': 0.8173635817229912, 'raif_metric': 3.4927180967679616}
+2021-09-24 20:48:21,714 __main__     INFO     Metrics stat for training data with manual prices: {'mape': 0.3050682702129876, 'mdape': 0.2489452773416616, 'rmse': 73225.65241549474, 'r2': 0.3292231230563474, 'raif_metric': 2.043648565135431}
+2021-09-24 20:48:21,714 __main__     INFO     END train.py
+2021-09-24 20:51:23,761 __main__     INFO     START predict.py
+2021-09-24 20:51:23,762 __main__     INFO     Load test df
+2021-09-24 20:51:23,785 __main__     INFO     Input shape: (2974, 76)
+2021-09-24 20:51:23,788 __main__     INFO     Load model
+2021-09-24 20:51:23,826 __main__     INFO     Predict
+2021-09-24 20:51:23,903 __main__     INFO     Save results
+2021-09-24 20:51:23,913 __main__     INFO     END predict.py
